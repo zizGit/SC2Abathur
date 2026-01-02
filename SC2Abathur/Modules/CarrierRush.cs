@@ -22,7 +22,6 @@ namespace SC2Abathur.Modules.Examples
         private bool _startCalled;
         private bool _attackMode;
 
-        // Словник цін
         private readonly Dictionary<uint, (int Min, int Gas)> _unitCosts = new Dictionary<uint, (int, int)>
         {
             { BlizzardConstants.Unit.Nexus, (400, 0) },
